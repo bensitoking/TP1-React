@@ -1,9 +1,10 @@
 import React from "react";
-function form()
+import './Form.css';
+<link rel="stylesheet" href="Form.css" />
+function Form()
 {
     return (
         <div className="one-half column">
-            <h2>Crear mi Cita</h2>
             <form>
                 <label>Nombre Mascota</label>
                 <input type="text" name="mascota" className="u-full-width" placeholder="Nombre Mascota"value=""/>
@@ -20,4 +21,4 @@ function form()
     );
 }
 
-export default Form
+export default Form;
