@@ -1,6 +1,5 @@
 import React from "react";
-import './Form.css';
-//<link rel="stylesheet" href="Form.css" />
+
 function Form()
 {
     return (
@@ -8,7 +7,8 @@ function Form()
             <form>
                 <label>Nombre Mascota</label>
                 <input type="text" name="mascota" className="u-full-width" placeholder="Nombre Mascota"value=""/>
-                <label>Nombre Dueño</label><input type="text" name="propietario" class="u-full-width"  placeholder="Nombre dueño de la mascota" value=""/>
+                <label>Nombre Dueño</label>
+                <input type="text" name="propietario" className="u-full-width"  placeholder="Nombre dueño de la mascota" value=""/>
                 <label>Fecha</label>
                 <input type="date" name="fecha" className="u-full-width" value=""/>
                 <label>hora</label>
