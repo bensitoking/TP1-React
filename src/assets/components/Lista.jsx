@@ -1,7 +1,7 @@
 import React from 'react';
 import './Lista.css';
 import Cita from './Cita';
-<link rel="stylesheet" href="Lista.css" />
+//<link rel="stylesheet" href="Lista.css" />
 function Lista() 
 {
     return (
