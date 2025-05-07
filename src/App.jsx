@@ -7,12 +7,14 @@ import  Form  from './assets/components/Form.jsx'
 function App() {
   return (
     <>
+    <div id="root">
     <div className='row'>
       <div className='container'>
           <h1>ADMINISTRADOR DE PACIENTES</h1>
           <Form/>
           <Lista/>
       </div>
+    </div>
     </div>
     </>
   )

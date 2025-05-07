@@ -1,6 +1,5 @@
 import React from "react";
 import "./Form.css";
-<link rel="stylesheet" href="Form.css" />
 function Form()
 {
     return (
